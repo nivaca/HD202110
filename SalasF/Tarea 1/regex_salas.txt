@@ -1,0 +1,54 @@
+#Tarea Regex
+##Limpiar un texto extraído de un pdf
+
+###Códigos
+
+####Insertar tres líneas en blanco entre cada párrafo del texto
+Buscar: \n([A-Z])
+Remplazar: \n\n\n\n$1
+
+####Eliminar la información redundante
+Buscar: perífrasis. rev.lit.teor.crit. Vol. 9, n.o 18. Bogotá, julio-diciembre 2018, 176 pp. ISSN 2145-8987 pp 98-116
+Remplazar: 
+
+Buscar: La historia femenina negra o la herstory negra: Fe en disfraz de Mayra Santos-Febres...
+Remplazar:
+
+Buscar: Verónica Peñaranda-Angulo\n
+Remplazar: 
+
+Buscar: Verónica Peñaranda-Angulo\s
+Remplazar:
+
+Buscar: ···([0-9][0-9]*)···
+Remplazar: {$1}
+
+Buscar: \s\{
+        
+Remplazar: {
+
+####Añadir un # al principio de cada título de sección (noten el espacio en que le sigue)
+
+Buscar: (Resumen|Abstract|[1-5]\.\s[A-Z][A-Z].*)
+    (Buscador Case sensitive)
+Remplazar: # $1
+   Op 2: \n# $1
+        Usé esta para separarlo del último párrafo de la sección anterior.
+
+####Unan las palabras que han sido separadas por guiones
+
+Buscar: (\b\w+?)-\n([A-Za-zÀ-ÿ\u00f1\u00d1]*)
+Remplazar: $1$2
+
+
+####Reemplacen << ... >> por comillas tipográficas dobles
+
+Buscar: <<(.*?)>>
+Remplazar: ”$1”
+
+“la “ficcionaliza- ción” de la historia como una “explicación” (139) (Página 102 párrafo 2). Es esta parte el texto tienen un error con la cantidad de comillas o de << por lo tanto el código de busqueda no funciona, es una excepción.
+
+####Reemplacen los tres guiones --- por rayas: —
+
+Buscar: ---(.*?)---
+Remplazar: —$1—
