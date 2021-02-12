@@ -1,0 +1,17 @@
+\b\.\n⇒.\n\n\n\n
+\b\n⇒\n\n\n\n
+
+perífrasis. rev.lit.teor.crit. Vol. 9, n.o 18. Bogotá, julio-diciembre 2018, 176 pp. ISSN 2145-8987 pp 98-116⇒\n
+La historia femenina negra o la herstory negra: Fe en disfraz de Mayra Santos-Febres\.\.\.⇒\n
+Verónica Peñaranda-Angulo[ \n]⇒\n
+
+···(\d+)···⇒{$1}
+
+(\b\d\. [A-Z]{2})⇒# $1
+
+-\n⇒	
+
+<<⇒“
+>>⇒”
+
+---⇒—
