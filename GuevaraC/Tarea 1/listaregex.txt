@@ -8,7 +8,7 @@ Eliminar encabezado título                          (?:La.+Febres\.\..) -> Sin 
 Eliminar encabezado autoría                         (\bVeró.+ulo\s?) -> Sin información *Con trampa
 Números de página entre llaves                      Paso 1 [···].{2} -> {  Paso 2 \b\{ -> }
 Números de página entre llaves                      ((·+)(\d+)(·+)) -> {$3}
-Añadir numeral antes de cada título                 (\n)(^\d) ->   $1# $2
+Añadir numeral antes de cada título                 (\n)(^\d) ->   $1# $2 *Con trampa
 Reemplazar <<...>> por “...”                        Paso 1 << -> “ Paso 2 >> -> ”
 Reemplazar --- por raya —                           --- -> — 
 
