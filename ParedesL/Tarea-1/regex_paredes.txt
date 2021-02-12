@@ -1,0 +1,44 @@
+Separar encabezado de Bibliografía en página {114}:
+([a-zA-ZÀ-ÿ\u00f1\u00d1]+\s[a-zA-ZÀ-ÿ\u00f1\u00d1]+-[a-zA-ZÀ-ÿ\u00f1\u00d1]+)\s([A-ZÀ-ÿ]+)\n   →   $1\n\n$2\n
+
+Seleccionar Notas y moverlas al final de la sección:
+^\d\.\s([a-zA-ZÀ-ÿ\u00f1\u00d1\s\d\(\);:,]{2,})\. y después Alt + ↓
+
+Quitar encabezado de páginas pares:
+[a-zA-ZÀ-ÿ\u00f1\u00d1]+\s[a-zA-ZÀ-ÿ\u00f1\u00d1]+-[a-zA-ZÀ-ÿ\u00f1\u00d1]+\n   →   (vacío)
+
+Quitar encabezado de páginas impares:
+.{2,}Santos-Febres\.{3}\n   →   (vacío)
+
+Quitar pie de página de páginas pares, pero conservar el número de página (menos página 98 y 116):
+\n(·{3})(\d+)(·{3})(\s.+116$)\n([^M])   →   ␣{$2}␣$5
+
+Quitar pie de página de páginas 98 y 116, pero conservar el número de página:
+\n(·{3})(\d+)(·{3})(\s.+116$)\n   →   ␣{$2}\n
+
+Quitar pie de página de páginas pares, pero conservar el número de página:
+(\n)(.+)(·{3})(\d+)(·{3})(\n)   →   ␣{$4}␣
+
+Juntar palabras separadas por guión:
+(\b(\w+|á|é|í|ó|ú)?)-\n   →   $1
+
+Quitar --- y poner —:
+[-]{3}   →   —
+
+Reemplazar << y >> por “ y ” :
+[<]{2}   →   “
+[>]{2}   →   ”
+
+Poner tres líneas entre los párrafos:
+(.$)   →   $1\n\n\n
+
+Cambiar títulos de secciones:
+(^\d\.\s)([A-Z])(([A-ZÁÉÍÓÚ]+\s?)+)   →   #␣$1$2\L$3
+
+Extras:
+
+Borrar espacio extra antes de Rosado:
+\sRosado,   →   $1
+
+Separar bibliografía:
+\s(([A-Za-záéíóú-]+(\s[A-Za-záéíóú-]+)?,\s[A-Za-záéíóú\s]+)\.\s(“[A-GI-Z]|Fe en))   →   \n$1
