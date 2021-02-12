@@ -1,0 +1,10 @@
+
+3 líneas blanco entre párrafos              \.\n                        ⇒       \n\n\n\n
+Paginación                                  (···)(\d{2,3})(···)         ⇒       {$2} 
+Encabezados y pie de pagina (# impares)     .+(\{\d{2,3}\})\n.+         ⇒       $1
+Encabezados y pie de pagina (# pares)       (\{\d{2,3}\}) .+\n.+        ⇒       $1      
+Pie de la página #106                       (\{\d{2,3}\}) .+            ⇒       $1
+Guiones entre palabras                      (\b\w+?)-\n                 ⇒       $1
+#  Antes de títulos                         ^(\d\. .+\n ?)              ⇒       # $1 (deben saltarse las notas al pie)
+Reemplazar comillas                         <<(\w+)>>                   ⇒       “$1”      
+Reemplazar --- por raya                     ---                         ⇒       —
