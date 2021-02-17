@@ -1,0 +1,15 @@
+Entrega: Conni Guevara-Urrego
+TAREA                                               REGEX
+
+Unir palabras separadas - Entrega clase             (\b\w+)-\n -> $1
+Tres líneas en blanco entre cada párrafo            No lo logré :(
+Eliminar pie de página                              (?:perífrasis.+116) -> Sin información
+Eliminar encabezado título                          (?:La.+Febres\.\..) -> Sin información
+Eliminar encabezado autoría                         (\bVeró.+ulo\s?) -> Sin información *Con trampa
+Números de página entre llaves                      Paso 1 [···].{2} -> {  Paso 2 \b\{ -> }
+Números de página entre llaves                      ((·+)(\d+)(·+)) -> {$3}
+Añadir numeral antes de cada título                 (\n)(^\d) ->   $1# $2 *Con trampa
+Reemplazar <<...>> por “...”                        Paso 1 << -> “ Paso 2 >> -> ”
+Reemplazar --- por raya —                           --- -> — 
+
+*Con trampa: Seleccioné la opción "buscar en selección" para omitir la coincidencia que termina con * en el nombre de la autora y en los dos pie de página de referencia que tienen número (1 y 2). 
