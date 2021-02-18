@@ -13,131 +13,131 @@
 
 /* CUERPO DE LA PÁGINA */
 
-    body {
-        font-family: "Roboto", serif;
-        max-width: 100vw;
-        margin: auto;
-        background-color: #F1E0CC;
-        animation: fadein 2s;
-    }
+body {
+    font-family: "Roboto", serif;
+    max-width: 100vw;
+    margin: auto;
+    background-color: #F1E0CC;
+    animation: fadein 2s;
+}
 
-    @keyframes fadein {
-        from {
-        opacity:0;
-        }
-        to {
-            opacity:1;
-        }
+@keyframes fadein {
+    from {
+    opacity:0;
     }
+    to {
+        opacity:1;
+    }
+}
 
-    section {
-        padding: 1em 6em 3em 6em;
-    }
+section {
+    padding: 1em 6em 3em 6em;
+}
 
-    h3.section-title {
-        font-family: Raleway, sans-serif;
-        font-size: 1.4em;
-        padding: 2em 0em 1em 0em;
-    }
+h3.section-title {
+    font-family: Raleway, sans-serif;
+    font-size: 1.4em;
+    padding: 2em 0em 1em 0em;
+}
 
-    p.no-indent {
-        text-align: justify;
-    }
+p.no-indent {
+    text-align: justify;
+}
 
-    p.indent {
-        text-align: justify;
-        text-indent: 3em;
-    }
+p.indent {
+    text-align: justify;
+    text-indent: 3em;
+}
 
-    a {
-        text-decoration: none;
-        color: #A10F0D;
-    }
+a {
+    text-decoration: none;
+    color: #A10F0D;
+}
 
 /* INICIO BARRA DE NAVEGACIÓN */ 
 
-    nav {
-        position: sticky;
-        padding-top: 0.8em;
-        padding-bottom: 0.8em;
-        background-color: #F1E0CC;
-    }
+nav {
+    position: sticky;
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+    background-color: #F1E0CC;
+}
 
-    .nav__link {
-        font-family: Roboto, sans-serif;
-        font-variant: small-caps;
-        font-weight: 800;
-        font-size: 1.2em;
-        color: #000000;
-        text-decoration: none;
-        /* Transición para el hover */
-        transition: all 0.3s ease 0s;
-    }
+.nav__link {
+    font-family: Roboto, sans-serif;
+    font-variant: small-caps;
+    font-weight: 800;
+    font-size: 1.2em;
+    color: #000000;
+    text-decoration: none;
+    /* Transición para el hover */
+    transition: all 0.3s ease 0s;
+}
 
-    /* Hover links de barra de navegación */
+/* Hover links de barra de navegación */
 
-    .nav__link:hover {
-        color: #906429;
-    }
+.nav__link:hover {
+    color: #906429;
+}
 
-    /* Para justificar el contenido de la barra de navegación */
-    .nav__ul {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 0.2em 5em 0.5em 5em;
-        list-style: none;
-    }
+/* Para justificar el contenido de la barra de navegación */
+.nav__ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.2em 5em 0.5em 5em;
+    list-style: none;
+}
 
-    .nav__ul li {
-        display: inline-block;
-    }
+.nav__ul li {
+    display: inline-block;
+}
 
 /* IMÁGENES */
 
-    .container-01 {
-        position: relative;
-        text-align: center;
-        color: #fff;
-    }
+.container-01 {
+    position: relative;
+    text-align: center;
+    color: #fff;
+}
 
-    .centered {
-        /* position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%); */
-        width:100%;    
-        height:100%;
-        position: absolute;
-        top: 0;
-        left: 0px;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-        display: flex;
-    }
+.centered {
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    width:100%;    
+    height:100%;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
 
-    .centered h1 {
-        font-size: 3.4em;
-        font-weight: 700;
-        font-family: Raleway, sans-serif;
-        text-align: center;
-    }
+.centered h1 {
+    font-size: 3.4em;
+    font-weight: 700;
+    font-family: Raleway, sans-serif;
+    text-align: center;
+}
 
-    .centered h2 {
-        font-size: 1.6em;
-        font-weight: 600;
-        font-family: Montserrat, sans-serif;
-        text-align: center;
-        padding: 0.5em 1em;
-    }
+.centered h2 {
+    font-size: 1.6em;
+    font-weight: 600;
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+    padding: 0.5em 1em;
+}
 
-    .index-img {
-        width: 100%;
-        height: 60vh;
-        object-fit: cover;
-        object-position: 0 30%;
-    }
+.index-img {
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+    object-position: 0 30%;
+}
 
 /* NOTAS */
 
