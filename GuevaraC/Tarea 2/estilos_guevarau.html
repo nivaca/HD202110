@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background-position: center;
+    font-family: gothica;
+    color: #4F230B;
+}
+
+.logo{
+    font-family: satisfy;
+    padding: 30px;
+}
+
+body main{
+    padding: 23px;
+}
+body main section{
+    padding-top: 20px;
+}
+
+body main{
+    padding-right: 780px;
+}
+
+p{
+    padding-top: 10px;
+}
+
+.derecha{
+    padding-left: 80px;
+}
+
+nav{
+    height: 52px;
+    background: #DD7E12;
+    padding-left: 0px;
+}
+
+nav ul{
+    float: right;
+    margin-right: 35px;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    color: #F8F4F9;
+    padding: 0 15px;
+    display: block;
+    line-height: 50px;
+    font-size: 18px;
+    background: #DD7E12;
+    transition: .4s;
+    cursor: pointer;
+}
+
+nav ul li:hover > ul{
+    top: 50px;
+    opacity: 1;
+    visibility: visible;
+    transition: .3s linear;
+}
+    
+
+nav ul ul{
+    position: absolute;
+    top: 50px;
+    border-top: 1px #905319 solid;
+    opacity: 0;
+    visibility: hidden;
+}
+
+nav ul li a:hover{
+    color: #905319;
+}
+
+
+nav ul ul li{
+    width: 120px;
+    display: list-item;
+    position: relative;
+    border: 1px #905319 solid;
+    border-top: none;
+}
+
+nav ul ul li a{
+    line-height: 50px;
+}
+
+
+header{
+    color: #4F230B;
+    font-family: gothica;
+    font-size: 20px;
+    line-height: 50px;
+    top: 0pt;
+}
+
+footer p{
+    bottom: 0pt;
+    position: fixed;
+    padding-left: 1400px; 
+    color: #DD7E12;
+}
+
+body{
+    background-image: url(Imagenes/Fondo.jpeg);
+    background-position: center;
+    height: 100vh;
+    font-family: gothica;
+    color: #4F230B;
+}
+
+@font-face{
+    font-family: gothica;
+    src:url(Fuentes/GothicA1-Regular.ttf)
+}
+
+@font-face{
+    font-family: satisfy;
+    src:url(Fuentes/Satisfy-Regular.ttf);
+}
