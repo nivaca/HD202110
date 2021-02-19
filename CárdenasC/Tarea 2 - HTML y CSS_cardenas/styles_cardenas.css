@@ -60,11 +60,6 @@ footer{
     
 }
 
-@keyframes change-color{
-    from {color: deeppink}
-    to {color: darkviolet}
-}
-
 .herstory {
     color: deeppink;
     
