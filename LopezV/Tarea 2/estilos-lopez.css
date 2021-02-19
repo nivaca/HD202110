@@ -1,0 +1,220 @@
+#titulo-principal {
+    font-family: Spectral;
+    text-align: center;
+    font-size: 50px;
+    margin: 100px;
+}
+#autora {
+    text-align: right;
+        color: white;
+    font-family: Spectral;
+        font-size: 20px;
+            margin-right: 20px;
+    
+}
+
+#ingles {
+    font-family: Spectral;
+
+    font-size: 30px;
+    margin: 100px;
+    border-top: dotted;
+    border-top-color: aliceblue
+        
+}
+
+#pie-de-pag-absoluto {; 
+bottom; 0pt;
+font-family: Spectral;
+background-color: azure;
+position:sticky;
+text-align: center;}
+
+#Doi {color:black;
+margin:50px;
+background-color: azure;
+width: 30%}
+
+
+.fechas {color:whitesmoke;
+font-family: Spectral;
+text-align:right;
+margin-right: 20px;}
+
+blockquote {width: 
+    text-align: justify;}
+
+.quote {text-align: right;
+margin-right: 0}
+    
+
+
+#caja-parrafo-intro {background: #A4E3FF;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+        margin-right: 100px;
+  border-color: black;
+  border: 5px;
+    padding-top: 30px;
+padding-right: 30px;
+padding-bottom: 30px;
+padding-left: 30px;} 
+
+.parrafos-introduccion {justify-content:space-between;
+    text-align:justify;
+}
+
+.parrafo-ficcion {justify-content:space-between;
+    text-align:justify;
+}
+
+.parrafo-3 {justify-content:space-between;
+    text-align:justify;}
+.parrafo-4 {justify-content:space-between;
+    text-align:justify;}
+
+.parrafo-5 {justify-content:space-between;
+    text-align:justify;}
+
+.parrafos1 {justify-content:space-between;
+    text-align:justify;}
+
+blockquote {justify-content:space-between;
+    text-align:justify;}
+h2 {text-align: center; }
+
+#caja-la-herstory {background: #58D68D;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+        margin-right: 100px;
+  border-color: black;
+  border: 5px;
+    padding-top: 30px;
+padding-right: 30px;
+padding-bottom: 30px;
+padding-left: 30px;} 
+
+
+
+#caja-la-ficcion {background: #D1FD8E;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+        margin-right: 100px;
+  border-color: black;
+  border: 5px;
+    padding-top: 30px;
+padding-right: 30px;
+padding-bottom: 30px;
+padding-left: 30px;;}
+
+#caja-conclusiones {background: #FB7759;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+        margin-right: 100px;
+  border-color: black;
+  border: 5px;
+    padding-top: 30px;
+padding-right: 30px;
+padding-bottom: 30px;
+padding-left: 30px;}
+
+#caja-bibliografia {background: #A4E3FF;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+        margin-right: 100px;
+  border-color: black;
+  border: 5px;
+    padding-top: 30px;
+padding-right: 30px;
+padding-bottom: 30px;
+padding-left: 30px;}
+
+#cajalamujernegra {background: #F7DC6F;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+        margin-right: 100px;
+  border-color: black;
+  border: 5px;
+    padding-top: 30px;
+padding-right: 30px;
+padding-bottom: 30px;
+padding-left: 30px;
+font-family: Spectral;}
+
+#caja-revision-4 {background: #CEB7FF;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+        margin-right: 100px;
+  border-color: black;
+  border: 5px;
+    padding-top: 30px;
+padding-right: 30px;
+padding-bottom: 30px;
+padding-left: 30px;}
+
+#caja-resumenes {background: aliceblue;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+        margin-right: 100px;
+  border-color:blueviolet
+  border: 5px;
+    padding-top: 30px;
+padding-right: 30px;
+padding-bottom: 30px;
+padding-left: 30px;
+    border-style:dotted;}
+body {background-color:aliceblue ;}
+
+#piedepagina {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+        margin-right: 100px;
+  border-color:blueviolet
+  border: 5px;
+    padding-top: 30px;
+padding-right: 30px;
+padding-bottom: 30px;
+padding-left: 30px;
+    border-style:groove;
+    background:white}
+body {background-color:black;}
+
+#caja-indice  {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+        margin-right: 100px;
+  border-color:white
+  border: 5px;
+    padding-top: 30px;
+padding-right: 30px;
+padding-bottom: 30px;
+padding-left: 30px;
+    border-style:groove;
+    background:#FFEF57;
+    ;
+width: 40%}
+body {background-color:black;}
+
+h1 {color:aliceblue;
+font-family: Spectral;}
+
+#button {color: black;}
+
+#indice {color:black;
+text-align: center;}
+
+.palabras-clave {background-color: hotpink;
+width: 55%}
+
+
+
