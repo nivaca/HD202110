@@ -1,0 +1,78 @@
+body {
+    background: black;
+    color: white;
+    font-family: 'Lora', serif;
+    padding: 20px;
+    justify-content: center;
+}
+
+
+#titulo-principal {
+    color: white;
+}
+
+header {
+
+    background: #2C3539;
+    position: fixed; top: 0;
+    padding: 0px;
+    font-size: 0.7em;
+}
+
+h2 {
+    padding: 20px;
+}
+
+p {
+    padding: 20px;
+}
+
+i{
+    font-family: 'Playfair Display', serif;
+}
+
+a {
+    color: greenyellow;
+}
+
+span-pag{
+    position: absolute; right: 0;
+    color: deepskyblue;
+    font: bold;
+    
+}
+
+
+
+footer{
+    background: #2C3539;
+    position: fixed; bottom: 0;
+    font-size: 0.7em;
+    align-self:center;  
+    padding:0px;
+    
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+@keyframes change-color{
+    from {color: deeppink}
+    to {color: darkviolet}
+}
+
+.herstory {
+    color: deeppink;
+    
+}
+
+.disfraz {
+    color: cyan;
+}
+
+
+
