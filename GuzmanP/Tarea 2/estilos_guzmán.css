@@ -1,0 +1,43 @@
+body {
+color: coral;
+font-family: inherit
+}
+
+p {
+color: blueviolet;
+font-family: fantasy;
+text-align: justify
+}
+
+#parrafo-header {
+background-color:aquamarine;
+}
+
+
+#parrafo-key {
+background-color: chartreuse;
+text-align: center
+}
+
+.nueva-pagina 
+{
+width: 80%;
+background-color:darkcyan;
+}
+
+h3 {
+color: forestgreen;
+border: 1px dotted #990000;
+}
+
+blockquote {
+text-align: right;
+font-family: 'Ballet', cursive;
+font-family: 'Dancing Script', cursive; 
+}
+
+ol {
+background-color: darkgray;
+color: darkslateblue;
+border: 4px groove #990000;
+}
