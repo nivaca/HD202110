@@ -1,0 +1,183 @@
+header {position: sticky;
+    top:0pt;
+   background-color: skyblue;
+    margin-top: 10pt;
+}
+
+article {
+    background-color:deepskyblue;
+}
+
+#abriendo {
+     background-color: deepskyblue;
+    font-family: century;
+    color: black;
+    text-align: justify;   
+}
+#resumiendo {
+     background-color: white;
+    font-family: century;
+    color:darkred;
+    margin-bottom: 2%;
+    margin-left: 15%;
+    margin-right:15%; 
+    text-align: justify; 
+    
+}
+
+#índice {
+   
+    text-align: center;
+    margin-left:-150px;
+    margin-right: -110px;
+    margin-top: 20pt;
+     padding: 20px;
+    background-color:white;
+    color: deepskyblue;
+
+}
+
+#button { 
+color: black;
+text-align: center;
+ margin-left: -50pt;
+   
+}
+
+a{color: black}
+
+.page { 
+    
+     background-color: white;
+    font-family: century;
+    margin-left: 100px;
+    margin-right:100px; 
+    padding: 40px;
+    text-align: justify; 
+ border-left-width: thick;
+    
+}
+#titulo {
+    
+    text-align: center;
+    background-color: white;
+     color:black; 
+}
+#english {
+    text-align: center;
+    border-top-style: dotted;
+    color:white;
+    background-color: deepskyblue;
+    margin-right:5%;
+    margin-left:5%;
+   
+}
+
+#autora {
+   
+    font-family:century;
+    text-align: left;
+    margin-right:2%;
+    color:white;
+}
+
+.fechas { 
+    
+    text-align: left;
+    margin-right: 2%;
+    font-family: century;
+        color:white;
+}
+
+
+
+.citas {
+   margin-right:0;
+   
+}
+
+.cap {
+    
+    text-align: center;
+}
+
+.con-sangria {
+     text-indent: 40px;
+    text-align: justify; 
+}
+
+.cita-cap {
+      text-align: right;
+    font-family: century, cursive;
+    }
+
+
+#Capítulo-1 {
+    text-align: center;
+    color: darkgreen;
+}
+
+#Capítulo-2 {
+    text-align: center;
+    color: darkgreen;
+}
+
+#Capítulo-3 {
+    text-align: center;
+    color: darkgreen;
+}
+
+#Capítulo-4 {
+    text-align: center;
+    color: darkgreen;
+}
+
+#Bibliografía {
+    text-align: center;
+    color: darkgreen;
+}
+
+#Conclusiones {
+    text-align: center;
+    color: darkgreen;
+}
+
+
+.bibliocita {
+   
+    text-indent: -30px;
+	
+	padding-left: 40px;
+}
+
+#numbers {
+    position: sticky; 
+    list-style-position: outside; 
+    background-color: aquamarine;
+}
+
+.footnote {
+    
+    font-family: serif;
+    color:darkblue;
+    
+}
+
+footer {
+    text-align: center;
+    border-top-style: dotted;
+    color:white;
+    text-align: center;
+    background-color: black;
+    margin-top:-2pt;
+bottom: 0pt;
+position:sticky; 
+}
+
+
+#biblio {
+    background-color: skyblue;
+    
+}
+
+
