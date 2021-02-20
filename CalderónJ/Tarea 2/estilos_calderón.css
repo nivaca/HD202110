@@ -1,0 +1,46 @@
+h1, h2, h3, h4, h5, h6, h7, h8 {
+    font-family: 'Noto Serif', serif;
+background-color: #FFFF00;
+    text-align: right;
+}
+
+blockquote {
+    font-family: 'Cardo', serif;
+    font-size: 90%;
+}
+
+ul {
+    margin-left: 50 px;
+    margin-right: 50 px;
+    font-family: 'Cardo', serif;
+}
+
+sup {
+font-family: 'Cardo', serif;
+    font-size: 75%;
+        bottom:0pt;
+}
+
+#epígrafe {
+    margin-left:100 px
+    text-align: right;
+        padding: 50px;
+}
+
+article {
+        margin-left: 50px;
+margin-right: 50 px;
+font-family: 'Cardo', serif;
+}
+
+#bibliografía {
+    margin-left: 60 px;
+margin-right: 50 px;
+    margin-top: 10px;
+    margin-bottom: 10 px;
+}
+
+Resumen {
+    font-family: 'Jaldi', sans-serif;
+    font-weight: bold;
+}
