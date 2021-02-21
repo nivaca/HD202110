@@ -1,0 +1,157 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:ital@0;1&display=swap');
+</style>
+
+.wrapper {
+    width: 1280px;
+    box-sizing: content-box;
+    padding: 75px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.img-background {
+    position: relative;
+    max-width: 100%;
+    text-align: center;
+    display: block;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#container {
+    width: 80%;
+    background-color: #ffcc33;
+    margin: auto;
+    margin-top: 60px;
+}
+.resumen {
+     width: 500px;
+    float:left; 
+    height: auto;
+    text-align: center;
+}
+.abstract {
+     width: 500px;
+    float:right; 
+    height: auto;
+    text-align: center;
+}
+#clear{
+    clear:both;
+}
+#container_intro {
+    width: 100%;
+    margin-top: 420px;
+}
+.text{
+    width: 75%;
+    padding: 60px;
+    margin-right: auto;
+    margin-left: auto;
+}
+h1 {
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 24px;
+    color: beige;
+    letter-spacing: 2px;
+    line-height: 30px;
+    font-weight: 400;
+}
+h2 {
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 15px;
+    color: beige;
+    letter-spacing: 1px;
+    line-height: 21px;
+    font-weight: 400;
+    font-style: italic;
+}
+h3 {
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 33px;
+    color: #7F7044;
+    letter-spacing: 1px;
+    line-height: 48px;
+    font-weight: 400;
+}
+p {
+    font-family: 'Livvic', sans-serif;
+    font-size: 15px;
+    line-height: 21px;
+    font-weight: 300;
+}
+.text i {
+    color: dimgrey;
+}
+.centered p{
+    color: beige;
+}
+.img-background hr {
+    margin-top: 36px;
+    margin-bottom: 36px;
+}
+blockquote {
+    font-family: 'Livvic', sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 700;
+    text-align: right;
+    width: 60%;
+    padding-left: 300px;
+    color: #7F7044;
+}
+a:link {
+  color: #7F7044;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #392E51;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #1E5054;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #253551;
+  background-color: transparent;
+  text-decoration: underline;
+}
+body{
+    margin-right: auto;
+    margin-left: auto;
+}
+footer{
+    margin-right: auto;
+    margin-left: auto;
+    text-align: right;
+    padding-right: 150px;
+    text-transform: uppercase;
+}
+footer p{
+    font-size: 9px;
+    font-weight: 800;
+    letter-spacing: 3px;
+}
+ul {
+    list-style-type: square;
+}
+ul hr{
+    margin-top: none;
+    margin-bottom: none;
+}
+li {
+    font-family: 'Livvic', sans-serif;
+    font-size: 12px;
+    line-height: 21px;
+    font-weight: 300;
+}
