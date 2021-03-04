@@ -1,0 +1,5 @@
+Bien en general.
+
+Una cosa: cuando se usa el elemento <q>, las comillas ("") son redundantes y no deben incluirse.
+
+Nota: 4.8
