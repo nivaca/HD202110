@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200;0,500;1,200&family=Lato:wght@900&display=swap');
+
+body {
+  font-family:'Crimson Pro', serif;
+  font-size: 12pt;
+  font-weight:200;
+  padding: 0 200px;
+}
+
+
+p {
+  font-size: 12pt;
+  line-height: 21pt;
+}
+
+
+span.fecha {
+  color: green;
+}
+
+
+
+span.expansion {
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+
+h1, h2, h3, h4, h5, h6, h7 {
+  text-align: center;
+}
+
+
+div.imprenta{
+  font-weight: bold;
+  text-align: center;
+}
+
+
+div.lugar-pub{
+  font-weight: bold;
+  color: purple;
+  text-align: center;
+}
+
+div.fecha-pub{
+  font-style:italic;
+  color: blue;
+  text-align: center;
+}
+
+
+span.place{
+  color: red;
+}
+
+
+span.pb{
+    background-color: black;
+    color: white;
+}
+
+
+span.quote{
+    font-style: italic;
+}
+
+
+span.nombre{
+    font-family:'Lato', sans-serif;
+    font-weight:900;
+    text-transform: uppercase;
+    font-size:10pt;
+}
+
+
+span.numero{
+    background-color: red;
+    color: white;    
+}
+
+
+span.closer{
+    font-style: italic;
+    font-size: 18pt;
+}
