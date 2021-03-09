@@ -1,0 +1,93 @@
+html{
+    background:#407296;
+}
+
+head{
+    font-family:sans-serif;
+}
+
+h1,h2,h3{
+    text-align:center;
+    color:#302F60;
+}
+
+h4{
+    text-align:left;
+    font-size:12pt;
+}
+
+div.imprenta, div.lugar-pub, div.fecha-pub{
+    text-align:center;
+    font-style:italic;
+    font-size:14pt;
+    color:maroon;
+    font-weight:bold;
+}
+
+div.fecha-pub:first-letter{
+    text-transform:capitalize;
+}
+
+body{
+    font-family:verdana;
+    font-size:14pt;
+    text-align:justify;
+}
+
+#saludo1,#saludo2{
+    font-weight:bold;
+    font-style:italic;
+}
+
+div.closer{
+    text-decoration:underline wavy;
+    text-decoration-color:#8F8FA0;
+}
+
+p {
+  font-size:14pt;
+}
+
+q{
+    font-style:italic;
+    color:#3D3D3E;
+}
+
+span.expansion, span.regulado {
+  text-decoration: underline;
+  text-decoration-color: purple;
+}
+
+span.obra{
+    font-style:italic;
+    word-spacing:-1px;
+    font-family:times;
+    font-size:20px;
+    color:#03196B;
+    font-weight:bold;
+}
+
+span.persona{
+    font-weight:bold;
+    font-size:16px;
+    text-decoration:underline overline;
+    color:#023842;
+}
+
+span.lugar,span.lugar1{
+    font-weight:bold;
+    font-style:italic;
+    font-size:16px;
+    text-transform:uppercase;
+    color:#363938;
+}
+
+span.fecha{
+    color:#524815;
+    font-weight:bold;
+}
+
+span.numero,span.unidad{
+    font-weight:bold;
+    color:#42083A;
+}
