@@ -1,0 +1,151 @@
+body
+{
+    background-color: #ebebeb; 
+    max-width:1500px;
+    align-content: center;
+}
+
+.theHeader
+{
+    
+    padding-bottom: 10px;
+    border-radius: 5px;
+    border-width: 2px 2px 2px 2px;
+    border-style: solid;
+    border-color: azure;
+    padding: 5px; 
+    text-align: center; 
+    background-color: #282624;
+    color: whitesmoke;  
+    
+}
+
+.theHeader a 
+{
+    
+    color: antiquewhite;
+    
+}
+
+
+.publicationStmt 
+{
+
+    padding: 5px; 
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+     border-radius: 5px;
+    border-style: solid;
+    border-color: azure;
+    border-width: 0px 0px 3px 0px;
+    
+    
+}
+
+.titleStmt 
+{
+    padding: 5px; 
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+      border-radius: 5px;
+    border-style: solid;
+    border-color: azure;
+    border-width: 0px 0px 3px 0px;
+    
+    
+}
+
+.article
+{
+    
+    padding: 30px 30px 30px 30px;
+    text-align: justify;
+    
+}
+
+.opener
+
+{
+    
+ text-transform: uppercase;
+ font-size: 1em;
+ font-weight: 300; 
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; letter-spacing: px; 
+    
+}
+
+blockquote 
+{
+    position: relative;
+    width: 80%;
+}
+
+blockquote:before 
+{
+  position: absolute;
+  content: open-quote;
+  font-size: 4em;
+  margin-left: -0.6em;
+  margin-top: -0.4em;
+}
+blockquote:after 
+{
+    position: absolute;
+    content: close-quote;
+    font-size: 4em;
+    bottom: 0;
+    right: 0;
+    margin-right: -0.6em;
+    margin-bottom: -0.8em;
+}
+blockquote p 
+{
+    display: inline;
+}
+
+sub
+{
+    
+    color: gray;
+    font-style: italic;
+    
+}
+
+.pb
+{
+    
+
+    background-color: #282624;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 2%;
+    height: 2px
+    
+}
+
+.placeName
+{
+    
+    font-style: italic;
+    
+}
+
+.closer
+{
+    
+ text-transform: uppercase;
+ font-size: 1em;
+ font-weight: 300; 
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; letter-spacing: px; 
+ text-align: left;
+    
+}
+
+
+
+
+
+
+
