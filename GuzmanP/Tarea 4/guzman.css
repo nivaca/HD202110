@@ -1,0 +1,121 @@
+body {
+  font-family:courier, fixed, monospace, serif;
+  font-size: 11pt;
+  color: #473A03; 
+}
+h1 {
+  font-family: Zapf-Chancery, cursive;
+  text-align: center;
+  font-size: 18pt;
+  color:olive;
+  border: 2px solid #0E4747;
+}
+h2 {
+  font-family:western, fantasy;
+  text-align: right;
+  font-size: 16pt;
+  color: fuchsia;
+}
+h3 {
+  font-family: initial;
+  text-align: center;
+  font-size: 14pt;
+  color: lime;
+}
+div.imprenta{
+  font-weight: bold;
+  font-style: oblique;
+  text-align: center;
+  background: black;
+  color: white;
+  font-size: 18px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+div.lugar-pub{
+  color: purple;
+  font-style: italic; 
+  background: beige;
+  color:black;
+  text-align: center;
+  font-size: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+div.fecha-pub{
+  font-weight: bold;
+  font-style: oblique;
+  text-align: center;
+  background: black;
+  color: white;
+  font-size: 14px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+h4 {
+  font-family: roman, 'times new roman', times, serif;
+  text-align: right;
+  font-size: 12pt;
+  color: navy;
+}
+p {
+  font-size: 11pt;
+  text-align:justify;
+  font-family:cursive;
+  margin: 50px;
+  line-height: 40px;
+}
+span.fecha {
+  color: green;
+  font-family: arial, helvetica, sans-serif, bold;
+  background: yellow;
+  border: 3px dotted #35296B;
+}
+span.expansion {
+  text-decoration: underline;
+  text-decoration-color: red;
+  color: black;
+  font-family:monospace, bold;
+}
+span.place {
+border-color:brown;
+background: orange;
+font-family:Zapf-Chancery, cursive, sans-serif, bold;
+border: 4px dashed #E00930;
+}
+span.pb {
+background: yellow;
+border: 10px dashed navy;
+margin: 50px;
+padding-top: 5px;
+padding-bottom: 5px;
+}
+span.quote {
+    font-family:western, fantasy;
+    font-size: 12pt;
+    font-style: italic;
+    color: navy;
+    background: #7EB350;
+}
+span.nombre-pers{
+    font-size: 14pt;
+    color: #353466;
+background: #B285D6;
+font-family: fantasy;
+border: 4px dashed #85D6D3;   
+}
+span.number {
+font-family:arial, helvetica, sans-serif;
+font-size: 10pt;
+color: #68B300;
+background: #BAF0FF;
+padding-top: 5px;
+padding-bottom: 5px;
+}
+span.closer {
+    font-size: 14pt;
+    text-align: center;
+    font-style: italic;
+    color: navy;
+    font-family:western, fantasy;
+}
