@@ -166,7 +166,10 @@
     <xsl:template match="/TEI/text[1]/body[1]/p/choice/expan">
         
                 
+            
+        <sub>         
             <xsl:apply-templates/>    
+        </sub>
         
         
     </xsl:template>
@@ -175,9 +178,26 @@
     
     <xsl:template match="/TEI/text[1]/body[1]/p/choice/abbr">
         
+        <xsl:apply-templates/>  
+        
+    </xsl:template>
+    
+    <xsl:template match="/TEI/text[1]/body[1]/p/q/choice/expan">
+        
+        
         <sub>         
             <xsl:apply-templates/>    
         </sub>
+        
+        
+    </xsl:template>
+    
+    
+    
+    <xsl:template match="/TEI/text[1]/body[1]/p/q/choice/abbr">
+        
+        <xsl:apply-templates/> 
+        
         
     </xsl:template>
     
@@ -203,6 +223,16 @@
     </xsl:template>
     
     <xsl:template match="/TEI/text[1]/body[1]/p/persName">
+        
+        <span class="persName">
+            
+            <xsl:apply-templates/>
+            
+        </span>
+        
+    </xsl:template>
+    
+    <xsl:template match="/TEI/text[1]/body[1]/p/q/persName">
         
         <span class="persName">
             

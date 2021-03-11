@@ -143,6 +143,16 @@ sub
     
 }
 
+span.persName
+{
+    font-style: italic;
+}
+
+span.titleTEI
+{
+    font-weight: 500;
+}
+
 
 
 
