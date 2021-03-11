@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FBFBFB;
+    line-height: 1.5em;
+}
+
+/*BARRA DE NAVEGACIÓN*/
+
+nav {
+    position: sticky;
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+    background-color: #FBFBFB;
+}
+
+.nav__link {
+    font-family: Roboto, sans-serif;
+    font-variant: small-caps;
+    font-weight: 800;
+    font-size: 1.2em;
+    color: #000000;
+    text-decoration: none;
+    /* Transición para el hover */
+    transition: all 0.3s ease 0s;
+}
+
+/* Hover links de barra de navegación */
+
+.nav__link:hover {
+    color: #8D8D8D;
+}
+
+/* Para justificar el contenido de la barra de navegación */
+.nav__ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.2em 20em 0.5em 20em;
+    list-style: none;
+}
+
+.nav__ul li {
+    display: inline-block;
+}
+
+/*ENCABEZADO*/
+
+div.header {
+    position: relative;
+    text-align: center;
+    color: #000;
+    margin-bottom: 3em;
+}
+
+.centered {
+    width:100%;    
+    height:100%;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+
+.centered > h1 {
+    font-size: 3.4em;
+    font-weight: 700;
+    font-family: Raleway, sans-serif;
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+.centered > h2 {
+    font-size: 1.6em;
+    font-weight: 600;
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+}
+
+.index-img {
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    object-position: 0 30%;
+}
+
+/*TEXTO*/
+
+p {
+    text-align: justify;
+    font-family: Roboto, sans-serif;
+    font-size: 1em;
+    padding-left: 5em;
+    padding-right: 5em;
+    padding-bottom: 1em;
+}
+
+q {
+    quotes: "«" "»" "“" "”";
+}
+
+h3 {
+    padding-left: 4.23em;
+    padding-right: 5em;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    font-family: Roboto, sans-serif;
+}
+
+h4 {
+    padding-left: 5em;
+    padding-right: 5em;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    font-family: Roboto, sans-serif;
+}
+
+h5 {
+    padding-left: 10em;
+    padding-right: 5em;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    font-family: Roboto, sans-serif;  
+}
+
+ul {
+    padding-left: 11em;
+    padding-right: 5em;
+    font-family: Roboto, sans-serif;
+    list-style-type: disc;
+}
+
+ul > ul {
+    font-family: Roboto, sans-serif;
+    list-style-type: circle;
+}
+
+mark.date {
+    background-color: #FEBFBF;
+    padding: 0.1em 0.25em;
+}
+
+mark.unit {
+    background-color: #9BE6FE;
+    padding: 0.1em 0.25em;
+}
+
+mark.persName {
+    background-color: #F9E17D;
+    padding: 0.1em 0.25em;
+}
+
+mark.placeName {
+    background-color: #C1FC82;
+    padding: 0.1em 0.25em;
+}
+
+mark.num {
+    background-color: #E5CDF9;
+    padding: 0.1em 0.25em;
+}
+
+span.expan {
+    text-decoration: underline;
+}
+
+hr {
+    margin-top: 3em;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+/*IMÁGENES*/
+
+img.img-05 {
+    width: 31%;
+    float: right;
+    margin-left: 2em;
+    margin-bottom: 0.6em;
+}
+
+img.img-19 {
+    width: 20.7%;
+    float: left;
+    margin-right: 2em;
+}
+
+img.img-27 {
+    width: 89%;
+    margin-left: 5em;
+    margin-bottom: 1em;
+}
+
+img.img-38 {
+    width: 38%;
+    float: right;
+    margin-left: 2em;
+}
+
+img.img-46 {
+    width: 38%;
+    float: left;
+    margin-right: 2em;
+}
+
+img.img-55 {
+    width: 40%;
+    float: right;
+    margin-left: 2em;
+}
+
+/*PIE DE PÁGINA*/
+
+footer {
+    background-color: #EAEAEA;
+    padding-left: 5em;
+    padding-right: 5em;
+    padding-bottom: 1.5em;
+    padding-top: 1.5em;
+    margin-top: 2em;
+}
+
+footer > p {
+    padding: 0;
+    line-height: 2em;
+}
