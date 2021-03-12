@@ -1,0 +1,82 @@
+* {
+    background-color: yellow;
+}
+
+body {
+  font-family:roman, 'times new roman', times, serif;
+  font-size: 12pt;
+  margin: 15px;
+  padding: 15px;
+}
+
+
+p {
+  text-align: left;
+  font-size: 12pt;
+}
+
+span.saludo {
+    font-weight: bold;
+}
+
+span.expansion {
+    text-decoration: underline;
+    text-decoration-color: red;    
+}
+
+span.fecha {
+  color: green;
+}
+
+span.lugar {
+    text-decoration: underline;
+}
+
+span.nombre {
+    font-weight: bold;
+}
+
+span.cita {
+    color: #2D85D1;
+}
+
+span.cifra {
+    color: #848345;
+}
+
+span.unidad {
+    color: #8A1B1B;
+}
+
+span.titulo {
+    color: #6137BF;
+}
+
+h1, h2, h3, h4, h5, h6, h7 {
+  text-align: center;
+}
+
+div.imprenta {
+    text-align: center;
+    font-weight: bold;
+    }
+
+div.lugar-pub {
+    font-weight: bold;
+    color: purple;
+    text-align: center;
+    }
+
+div.fecha-pub {
+    font-style: italic;
+    text-align: center;
+    color: blue;
+}
+
+div.despedida {
+    font-weight:bold;
+}
+
+span.firma {
+    font-style: italic;
+}
