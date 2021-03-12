@@ -1,0 +1,103 @@
+body {
+  font-family:century;
+  color:white;
+  font-size: 12pt;
+  background-color:gray;
+  text-align:justify;
+  margin-left:100pt;
+  margin-right:100pt; 
+  margin-bottom:80pt;
+}
+
+p {
+  font-size: 12pt;
+}
+
+span.fecha {
+  color: purple;
+}
+
+span.expansion {
+  text-decoration: underline;
+  text-decoration-color: blue;
+}
+
+h1 {
+    text-align: center;
+    margin:30pt;
+    color:white;
+}
+
+h2, h3, h4 {
+  text-align: center;
+  color:white;
+}
+
+div.imprenta{
+  font-weight: bold;
+  text-align: center;
+  color:white;
+}
+
+div.lugar-pub{
+  font-weight: bold;
+  color: purple;
+  text-align: center;
+}
+
+div.fecha-pub{
+  font-style:italic;
+  color: blue;
+  text-align: center;
+}
+
+span.apertura {
+  font-size: 14pt;
+  text-align:justify;
+  color:orange;
+  font-style:italic;
+  }
+  
+  span.lugares-texto {
+  font-size: 13pt;
+  color:orange;
+  font-weight:700;
+}
+
+span.nombres-texto {
+  font-size: 12pt;
+ color:black;
+  font-weight:bold;
+}
+
+span.numero {
+  font-size: 12pt;
+  font-family:courier, fixed, monospace;
+  font-weight:bold;
+  color:lime;   
+}
+
+span.tit-interno {
+   font-size:14pt;
+   color:aqua;
+   font-style:italic;   
+}
+
+span.citas {
+  color: yellow;
+  font-style:oblique;
+}
+
+div.saludo {
+ font-size: 14pt;
+  text-align:justify;
+  color:blue;
+  font-style:italic;      
+}
+
+div.cierre {
+  font-size: 14pt;
+  text-align:justify;
+  color:orange;
+  font-style:italic;
+  }
