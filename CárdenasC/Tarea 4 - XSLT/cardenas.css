@@ -1,0 +1,117 @@
+
+
+/*Importo el tipo de letra Quattrocento*/
+
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento&display=swap');
+
+body {
+    font-family: 'Quattrocento', serif;
+    font-size: 16pt;
+    background-color: black;
+    color: white; 
+    text-align: justify;
+    margin: 100px;
+  }
+  
+  h1 {
+    font-size: 34pt;
+    text-align: center;
+  }
+  h2 {
+
+    text-align: center;
+    font-size: 16pt;
+  }
+  h3 {
+
+    text-align: center;
+    font-size: 8pt;
+  }
+  
+   h4 {
+    
+    text-align: center;
+    font-size: 10pt;
+  }
+  
+  a {
+    color: greenyellow;
+    }
+  
+  div.imprenta{
+    font-weight: bold;
+    font-style: oblique;
+    text-align: center;
+    font-size: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  div.lugar-pub{
+    font-style: italic; 
+    text-align: center;
+    font-size: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  div.fecha-pub{
+    font-weight: bold;
+    font-style: oblique;
+    text-align: center;
+    font-size: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  
+
+  p {
+
+    text-align:justify;
+    margin: 50px;
+    line-height: 40px;
+  }
+  
+  span.fecha {
+    color: deeppink;
+    padding: 0.1em 0.25em;
+  }
+  span.expansion {
+    text-decoration: underline;
+    font-style: italic;
+    font-family:western, fantasy;
+  }
+  span.place {
+    color: greenyellow;
+    padding: 0.1em 0.25em;
+  }
+  span.pb {
+    position: absolute; right: 0;
+    color: deepskyblue;
+    font: bold;
+  }
+  q {
+      font-style: italic;
+      font-family:western, fantasy;
+
+  }
+  
+    span.persName {
+    color: deepskyblue;
+}
+
+  span.number {
+   color: cyan;
+  }
+ 
+
+    span.unit {
+    color: yellow;
+}
+
+
+  span.saludo {
+
+      text-align: center;
+      font-style: italic;
+      font-family:western, fantasy;
+      
+}
