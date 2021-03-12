@@ -1,0 +1,84 @@
+body {
+  font-family:monospace;
+  font-size: 12pt;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+        margin-right: 100px;
+    padding-top: 30px;
+padding-right: 30px;
+padding-bottom: 30px;
+padding-left: 30px;
+text-align: justify;
+background: azure;  
+}
+
+
+p {
+  font-size: 12pt;
+  
+
+}
+
+
+span.fecha {
+  color: #12BA4E ;
+}
+
+span.lugares {color:#FF6800;}
+
+span.persona {color: #AF00FF;}
+
+
+span.numero {color: blue;}
+
+span.expansion {color:#F719D8;}
+
+div.apertura {padding:inherit;
+width: 14%;
+background:#EBDEF0;}
+
+div.cierre {padding:inherit;
+width: 30%;
+background:#EBDEF0;}
+
+
+span.citas {font-style: italic;
+padding: inherit;
+text-align: justify;
+background: #FBF59A;
+}
+
+
+
+
+h1{font-family: monospace;
+    text-align: center;
+    font-size: 50px;
+    margin: 100px;
+     padding-top: 20px;
+padding-right: 20px;
+padding-bottom: 30px;
+padding-left: 30px;
+background: red;
+}
+
+h2{font-family: monospace;
+    text-align: right;
+    margin: 100px;
+    font-size: 40px;
+}
+
+h3{font-family: monospace;
+    text-align: left
+    font-size: 25px;
+    margin: 15px;
+   
+}
+h4{font-family: monospace;
+    text-align: lwft;
+    margin: 15px;}
+
+
+
+
