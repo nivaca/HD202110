@@ -1,0 +1,85 @@
+body {
+    font-family:arial, helvetica, sans-serif;
+    font-size: 13pt;
+    margin: 12px;
+    background-color: #f9f5e3;
+    color: #453750
+}
+
+p {
+    font-size: 14pt;
+    
+}
+
+/*span.fecha {
+    color: #508ca4;
+}*/
+
+/*/\*span.expansion{
+    text-decoration: underline;
+    text-decoration-color: black;*\/
+}*/
+
+
+span.lugares:hover{
+    color: red;
+}
+
+span.comillas{
+    font: italic;
+}
+
+span.numeros:hover{
+    color: blue;
+}
+
+
+span.titulos:hover{
+    color: green;
+}
+
+span.nombres:hover{
+    color: pink;
+    font: bold;
+}
+
+
+h1, h2, h3, h4 {
+    text-align: center;
+}
+
+h1 {
+    color: #f9f5e3; 
+}
+
+div.titulo{
+    background-color: #453750;
+}
+
+
+div.imprenta{
+    font-weight: bold;
+    text-align: center;
+}
+
+div.lugar-pub{
+    font-weight: bold;
+    text-align: center;
+}
+
+div.fecha-pub{
+    color: #508ca4;
+    text-align: center;
+}
+
+div.saludo{
+    font: italic;
+}
+
+
+div.final{
+    font: italic;
+    margin-top:12px;
+    
+}
+
